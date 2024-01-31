@@ -1,0 +1,37 @@
+---
+title: "Homework1"
+author: "Wyatt Combs"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r install_packages, include=FALSE}
+# packages
+library(zeallot)
+library(tidyverse)
+library(unvotes)
+library(knitr)
+library(GGally)
+library(ggfortify)
+library(gridExtra)
+library(emmeans)
+library(lindia)
+library(car)
+library(leaps)
+library(kableExtra)
+library(plotly)
+library(png)
+library(caret)
+
+```
+
+## Print Necessary Info
+
+The three functions below print out information about the current date, system information, and session information (such as attached packages).
+
+```{r print_info}
+date()
+Sys.info()
+sessionInfo() 
+```
+
